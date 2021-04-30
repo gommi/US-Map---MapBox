@@ -1,0 +1,79 @@
+/*
+@font-face {
+  font-family: "VAG_Rounded_Bold";
+  src: url("https://phi.ba/freelancer/map/font/VAG\ Rounded\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "Rubik_Medium";
+  src: url("https://phi.ba/freelancer/map/font/Rubik-Medium.ttf");
+}*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  margin: 0;
+  padding: 0;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-map a:active {
+  border: none !important;
+}
+
+.mapboxgl-canvas {
+  border: none !important;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: "Poppins-Regular";
+}
+
+#stateName > p {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: "VAG_Rounded_Bold";
+  color: #2da2dc;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+}
+
+#imageDiv {
+  width: 200px;
+}
+
+#imageDiv > img {
+  width: 100%;
+  
+}
+
+#territory {
+  width: 200px;
+}
+
+#tername {
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Rubik_Medium";
+  color: #000;
+}
+
+#terrLabel{
+  padding: 0;
+  margin: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-family: "VAG_Rounded_Bold";
+  color: #2da2dc;
+}
