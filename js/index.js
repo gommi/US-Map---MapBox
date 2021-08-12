@@ -1,4 +1,4 @@
-mapboxgl.accessToken = "pk.eyJ1IjoibWFwc3RlciIsImEiOiJja2RqNHAzaGwwYmR3MnNweTUxbmc2cGZ6In0.7zBonLsXUmBqrP5tTBaoaA";
+mapboxgl.accessToken = " ";//MapBox Access Key
 
 imgpath='https://phi.ba/freelancer/map';
 
